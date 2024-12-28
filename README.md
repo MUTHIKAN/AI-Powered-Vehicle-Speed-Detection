@@ -41,20 +41,25 @@ This Python-based system detects and measures vehicle speeds from video feeds us
    speed_limit = 60  # Set the speed limit to 60 km/h
    output_folder = "Penalties"  # Folder to store images of violators
 
-How It Works
-The script reads video frames and detects motion using contour detection.
-It tracks objects frame-to-frame to calculate vehicle speeds in km/h.
-If a vehicle exceeds the defined speed limit, it is flagged and highlighted.
-Images of violating vehicles are saved in the specified output folder.
-Example Output
+##How It Works
+1.The script reads video frames and detects motion using contour detection.
+2.It tracks objects frame-to-frame to calculate vehicle speeds in km/h.
+3.If a vehicle exceeds the defined speed limit, it is flagged and highlighted.
+4.Images of violating vehicles are saved in the specified output folder.
+##Example Output
 Images of vehicles exceeding the speed limit will be saved in the folder you define in the script. Example folder name: Penalties.
 
-Contributions
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+## Contribution
+Contributions are welcome! If you have suggestions or improvements, please:
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Submit a pull request.
 
-Fork the repository.
-Create a new branch.
-Make your changes.
-Submit a Pull Request.
-License
-This project is licensed under the MIT License.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+For any queries, feel free to reach out:
+- **Author**: Muthikanraj
+- **GitHub**: [MUTHIKAN](https://github.com/MUTHIKAN)
